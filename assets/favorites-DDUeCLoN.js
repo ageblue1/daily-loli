@@ -1,4 +1,4 @@
-import{d as R,r as b,g as d,s as c}from"./index-DlKIhEoR.js";const O=R("favorites",()=>{const i=b([]);function a(){const t=d().exec(`
+import{d as R,r as b,g as d,s as c}from"./index-Bxe9LT4U.js";const O=R("favorites",()=>{const i=b([]);function a(){const t=d().exec(`
       SELECT f.id, f.name, f.created_at, COUNT(fi.id) as cnt
       FROM folders f
       LEFT JOIN folder_items fi ON f.id = fi.folder_id

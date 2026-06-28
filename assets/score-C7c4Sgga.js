@@ -1,4 +1,4 @@
-import{d as g,r as h,g as a,s as S}from"./index-DlKIhEoR.js";const O=g("score",()=>{const o=h([]);function r(){const t=new Date;return`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")}`}function d(t,s){const e=a(),c=r(),n=e.exec(`
+import{d as g,r as h,g as a,s as S}from"./index-Bxe9LT4U.js";const O=g("score",()=>{const o=h([]);function r(){const t=new Date;return`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")}`}function d(t,s){const e=a(),c=r(),n=e.exec(`
       SELECT s.id FROM scores s
       JOIN checkins c ON s.character_id = c.character_id AND c.date = '${c}'
       WHERE s.character_id = ${t} AND s.created_at LIKE '${c}%'
